@@ -43,9 +43,15 @@ section{
 
 .about{
     background-color: darkblue;
+    color: white;
     height: 800px;
 }
 
-h3{
-    color: white;
+p{
+    padding-top: 5rem;
+}
+
+button{
+    position: relative;
+    top: 4rem;
 }
