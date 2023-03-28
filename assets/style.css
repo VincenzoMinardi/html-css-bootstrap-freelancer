@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+}
+
+.square, .title{
+    height: 50px;
+    background-color: green;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    background-color: gold;
+    height: 800px;
+}
+.square{
+    height: 60px;
+}
+
+.square-big{
+    background-color: green;
+    height: 250px;
+}
+
+.spaced{
+    margin-top: 1rem;
+}
+
+.line{
+    height: 20px;
+    background-color: black;
+}
+
+.square-small{
+    height: 100px;
+    background-color: white;
+}
