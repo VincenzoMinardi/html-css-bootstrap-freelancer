@@ -1,41 +1,51 @@
 nav{
-    display: flex;
-    align-items: center;
     background-color: black;
     height: 100px;
-}
-
-.square, .title{
-    height: 50px;
-    background-color: green;
 }
 
 section{
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    background-color: gold;
-    height: 800px;
+    background-color: aquamarine;
+    padding: 2rem;
 }
-.square{
-    height: 60px;
-}
-
-.square-big{
-    background-color: green;
-    height: 250px;
-}
-
-.spaced{
-    margin-top: 1rem;
-}
-
-.line{
+.small{
     height: 20px;
+}
+
+.square{
+    height: 300px;
+    background-color: red;
+}
+
+.square2{
+    height: 300px;
     background-color: black;
 }
 
-.square-small{
-    height: 100px;
-    background-color: white;
+.square3{
+    height: 300px;
+    background-color: yellow;
+}
+
+.square4{
+    height: 300px;
+    background-color: violet;
+}
+
+.square5{
+    height: 300px;
+    background-color: tomato;
+}
+
+.square6{
+    height: 300px;
+    background-color: brown;
+}
+
+.about{
+    background-color: darkblue;
+    height: 800px;
+}
+
+h3{
+    color: white;
 }
