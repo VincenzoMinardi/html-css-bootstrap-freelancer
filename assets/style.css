@@ -53,5 +53,40 @@ p{
 
 button{
     position: relative;
-    top: 4rem;
+    top: 4rem
+}
+
+.text{
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+.line{
+    margin-left: 8rem;
+    width: 65%;
+}
+
+footer{
+    background-color: yellow;
+}
+
+.cont-footer{
+    margin-top: 4rem;
+}
+
+
+.text-footer{
+    margin-top: 4rem;
+}
+
+.paragraf{
+    font-size: 2rem;
+}
+
+.copyright{
+    background-color: teal;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
