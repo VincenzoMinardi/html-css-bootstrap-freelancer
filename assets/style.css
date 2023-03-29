@@ -16,9 +16,14 @@ section{
     position: relative;
 }
 
-.star-bootstrap .fa-star::before{
+.size-black{
+    font-size: 3rem;
+    color: black;
+}
+
+.star-bootstrap-white .cont-star-white::before{
     position: absolute;
-    content: "";
+     content: ""; 
     top: 48%;
     left: 41%;
     display: inline-block;
@@ -28,17 +33,47 @@ section{
     border-radius: 10px;
 }
 
-.star-bootstrap .fa-star::after{
+.star-bootstrap-white .cont-star-white::after{
     position:absolute;
     top: 48%;
     right: 41%;
-    content: "";
+     content:""; 
     display: inline-block;
     height: 4px;
     width: 80px;
     background-color: white;
     border-radius: 10px;
 }
+
+.text-center .cont-star-black::before{
+    position: absolute;
+     content:""; 
+    top: 48%;
+    left: 41%;
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    background-color: black;
+    border-radius: 10px;
+}
+.text-center .cont-star-back::after{
+    position:absolute;
+    top: 48%;
+    right: 41%;
+     content: ""; 
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
 
 .color-star{
     color: white;
