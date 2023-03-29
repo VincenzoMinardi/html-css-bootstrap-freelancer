@@ -16,6 +16,10 @@ section{
     position: relative;
 }
 
+.cont-star-black{
+    position: relative;
+}
+
 .size-black{
     font-size: 3rem;
     color: black;
@@ -45,22 +49,22 @@ section{
     border-radius: 10px;
 }
 
-.text-center .cont-star-black::before{
+ .cont-star-black::before{
     position: absolute;
      content:""; 
     top: 48%;
-    left: 41%;
+    left: 44%;
     display: inline-block;
     height: 4px;
     width: 80px;
     background-color: black;
     border-radius: 10px;
 }
-.text-center .cont-star-back::after{
+  .cont-star-back::after{
     position:absolute;
+    content: "";
     top: 48%;
-    right: 41%;
-     content: ""; 
+    right: 40%;
     display: inline-block;
     height: 4px;
     width: 80px;
