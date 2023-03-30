@@ -25,58 +25,21 @@ section{
     color: black;
 }
 
-.star-bootstrap-white .cont-star-white::before{
-    position: absolute;
-     content: ""; 
-    top: 48%;
-    left: 41%;
+.line-star-white{
     display: inline-block;
     height: 4px;
     width: 80px;
+    margin-bottom: 1rem;
     background-color: white;
-    border-radius: 10px;
 }
 
-.star-bootstrap-white .cont-star-white::after{
-    position:absolute;
-    top: 48%;
-    right: 41%;
-     content:""; 
+.line-star-black{
     display: inline-block;
     height: 4px;
     width: 80px;
-    background-color: white;
-    border-radius: 10px;
-}
-
- .cont-star-black::before{
-    position: absolute;
-     content:""; 
-    top: 48%;
-    left: 44%;
-    display: inline-block;
-    height: 4px;
-    width: 80px;
+    margin-bottom: 1rem;
     background-color: black;
-    border-radius: 10px;
 }
-  .cont-star-back::after{
-    position:absolute;
-    content: "";
-    top: 48%;
-    right: 40%;
-    display: inline-block;
-    height: 4px;
-    width: 80px;
-    background-color:black;
-    border-radius: 10px;
-}
-
-
-
-
-
-
 
 
 .color-star{
